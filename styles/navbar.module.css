@@ -1,0 +1,48 @@
+
+.navbar {
+    /* --primary-color: #333; */
+    --text-color: var(--navbar-text-color);
+    background-color: var(--navbar-background-color);
+    color: var(--navbar-text-color);
+    border-bottom: 1px solid var(--navbar-border-color);
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 50px;
+    padding: 0 2%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-theme{
+    --primary-color: #111;
+    --text-color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks li {
+  padding: 0.5rem 1rem;
+}
+
+.navLinks li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinks li a:hover {
+  border-bottom: 2px solid #fff;
+}
